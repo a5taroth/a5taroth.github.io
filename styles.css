@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=JetBrains Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto Mon");
+
+.mono {
+    font-family: "jetbrains mono", "roboto mono";
+}
+.header {
+    border-color: lightskyblue;
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+}
+
+/* Backgrounds */
+.yellow-bg {
+    background-color: yellow;
+}
+.orange-bg {
+    background-color: orange;
+}
+.green-bg {
+    background-color: green;
+}
+.silver-bg {
+    background-color: silver;
+}
+.cyan-bg {
+    background-color: cyan;
+}
+
+html {
+    background-color: #0a0314;
+    color: lightskyblue;
+}
+hr {
+    height: 1px;
+    color: beige;
+    background-color: beige;
+}

@@ -11,48 +11,28 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     </head>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Mono" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono" type="text/css">
-
-    <style>
-        .mono {
-            font-family: "jetbrains mono", "roboto mono";
-        }
-        .header {
-            border-color: blue;
-            border-style: solid;
-            border-width: 6px;
-            border-radius: 10px;
-
-            background-color: lightskyblue;
-        }
-
-        /* Backgrounds */
-        .yellow-bg {
-            background-color: yellow;
-        }
-        .orange-bg {
-            background-color: orange;
-        }
-        .green-bg {
-            background-color: green;
-        }
-        .silver-bg {
-            background-color: silver;
-        }
-        .cyan-bg {
-            background-color: cyan;
-        }
-
-        hr {height: 8px;}
-    </style>
+    <link rel="stylesheet" href="styles.css">
 
     <body class="mono">
-        <h2 class="header" align="center"><b>Hey there, I am A5taroth!</b></h2>
+        <header>
+            <div align="center">
+                <span>
+                    <a href="#start">HOME</a>
+                </span>
+                <span>
+                    <a href="#projs">PROJECTS</a>
+                </span>
+                <span>
+                    <a href="#about">ABOUT</a>
+                </span>
+            </div>
+        </header>
+
+        <h2 id="start" class="header" align="center"><b>Hey there, I am A5taroth!</b></h2>
         
         <hr/>
 
-        <div class="yellow-bg">
+        <div>
             <h3>"Experience" in programming</h3>    
             <table>
                 <tr>
@@ -95,8 +75,8 @@
 
         <hr/>
 
-        <div class="green-bg">
-            <h3>Past Projects</h3>
+        <div>
+            <h3 id="projs">Past Projects</h3>
             <ul>
                 <li><a href="https://github.com/a5taroth/the-rock-bot/releases/tag/v1.0" target="_blank">Dwayne "The Bot" Jhonson</a></li> 
                 <li><a href="https://github.com/a5taroth/crappy-bird-pygame" target="_blank">A crappy flappy bird remake 🤦</a></li>
@@ -106,7 +86,7 @@
 
         <hr/>
 
-        <div class="orange-bg">
+        <div>
             <h3>Present Projects</h3>
             <ul>
                 <li>This stupid webpage <a href="https://github.com/a5taroth/a5taroth.github.io" target="_blank">(Source Code)</a></li> 
@@ -118,7 +98,7 @@
 
         <hr/>
 
-        <div class="silver-bg">
+        <div id="about">
             <h3>About Me</h3>
         
             I am a guy into Computer Science. Programming is mostly a hobby for for me (alongside other things).
@@ -127,7 +107,7 @@
 
         <hr/>
 
-        <div class="cyan-bg">
+        <div>
             <h3>Contacts</h3>
 
             <ul>
