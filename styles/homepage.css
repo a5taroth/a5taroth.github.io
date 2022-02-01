@@ -28,8 +28,19 @@
     background-color: cyan;
 }
 
+.icon {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.footer-icon {
+    width: 35px;
+}
+
 html {
-    background-color: #0a0314;
+    background-image: linear-gradient(
+        to bottom right, #000011, purple
+    );
     color: lightskyblue;
 }
 hr {
